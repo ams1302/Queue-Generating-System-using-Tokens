@@ -1,0 +1,38 @@
+@media only screen and (max-width: 760px) {
+    .container,
+    footer {
+        padding: 0;
+        width: 100%;
+    }
+    .text-btn button {
+        width: 100px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .navbar-dark .navbar-nav {
+        background-color: #9bd0e8;
+        margin-left: 10px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        margin-left: 20px;
+        color: black;
+    }
+    .boxes {
+        margin: 10px 50px;
+    }
+    .text {
+        width: 100%;
+    }
+    select {
+        width: auto;
+    }
+    .login-form {
+        width: 90%;
+    }
+    table {
+        font-size: small;
+    }
+    .doctor-form {
+        margin-left: 0;
+    }
+}

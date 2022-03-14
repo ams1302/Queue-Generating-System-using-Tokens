@@ -1,0 +1,49 @@
+.search-bar {
+    width: 100%;
+    padding: 0 5px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.search-result {
+    width: 100%;
+    padding: 0 5px;
+    margin-top: 5px;
+}
+
+.result-row {
+    background-color: wheat;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile span {
+    display: block;
+}
+
+.list {
+    height: 100%;
+}
+
+.profile {
+    text-align: center;
+    background-color: #ffc107;
+    padding: 10px 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile:nth-child(even) {
+    background-color: #39CCCC;
+}
+
+.profile:hover {
+    border: 2px dashed white;
+    width: 82%;
+}
+
+.form-control {
+    border: 1px solid #607D8B;
+}

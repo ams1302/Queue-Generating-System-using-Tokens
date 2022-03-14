@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+    background-color: #9bd0e8;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.navbar-dark,
+.btn-outline-light {
+    background-color: #34495E;
+    border: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-menu {
+    left: -100px;
+}
+
+.slider {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text {
+    width: 60%;
+    color: black;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #2f6077;
+}
+
+.text p {
+    margin-top: 20px;
+    width: 280px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: rgb(68, 68, 68);
+}
+
+.text button img {
+    width: 40px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+form:not(.login):not(.profile) {
+    background-color: #9dd2e996;
+    padding: 5px;
+}
+
+.login-form {
+    background-color: #9dd2e996;
+    box-shadow: 0 0px 15px 0 #474343;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.col-md-6,
+.col-6 {
+    margin: 0 auto;
+}
+
+.myprofile {
+    margin-top: 100px;
+}
+
+.form-row {
+    justify-content: center;
+}
+
+fieldset {
+    border: 1px solid #2b434e;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+legend {
+    text-align: center;
+    border: 1px solid #2b434e;
+    padding: 2px;
+    max-width: 180px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: inherit;
+    font-family: "Montserrat";
+}
+
+.booking-id {
+    text-align: center;
+    padding: 5px;
+    width: auto;
+    background-color: #E91E63;
+    margin-top: 10px;
+    color: white;
+}
